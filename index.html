@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的主页</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/pages/sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <link href="" rel="shortcut icon"/>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">我的集合</a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">主页</a></li>
+                <!--<li><a href="#well">About</a></li>-->
+                <!--<li><a href="#contact">Contact</a></li>-->
+                <li><a href="http://www.baidu.com">功能</a></li>
+                <li><a href="http://www.baidu.com">功能</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+
+                <li>
+                    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=298 height = 45
+                            src="//music.163.com/outchain/player?type=2&id=190778&auto=1&height=32"></iframe>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">下拉 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li class="dropdown-header">子功能头</li>
+                        <li><a href="#">子功能</a></li>
+                        <li><a href="#">子功能</a></li>
+                        <li><a href="#">子功能</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">子功能头</li>
+                        <li><a href="#">子功能</a></li>
+                        <li><a href="#">子功能</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div style="height: 70px"></div>
+
+<div class="left col-sm-1">
+    <div class="list-group">
+        <a class="list-group-item active">1</a>
+        <a href="#" class="list-group-item">2</a>
+        <a href="#" class="list-group-item">3</a>
+        <a href="#" class="list-group-item">4</a>
+        <a href="#" class="list-group-item">5</a>
+    </div>
+</div>
+
+<div class="row col-sm-9">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <h4 class="panel-title">Webs</h4>
+        </div>
+        <div class="panel-body">
+            <button type="button" class="btn btn-lg btn-primary"
+                    onclick="{location.href='https://www.baidu.com/'}">
+                Baidu百度
+            </button>
+            <button type="button" class="btn btn-lg btn-primary"
+                    onclick="{location.href='https://www.hao123.com/'}">
+                Hao123
+            </button>
+            <button type="button" class="btn btn-lg btn-info"
+                    onclick="{location.href='https://github.com/'}">
+                Github
+            </button>
+            <button type="button" class="btn btn-lg btn-warning"
+                    onclick="{location.href='https://www.taobao.com/'}">
+                淘宝
+            </button>
+            <button type="button" class="btn btn-lg btn-success"
+                    onclick="{location.href='http://www.apple.com/cn/'}">
+                Apple苹果
+            </button>
+            <button type="button" class="btn btn-lg btn-default"
+                    onclick="{location.href='http://www.google.com'}">
+                Google谷歌
+            </button>
+            <button type="button" class="btn btn-lg btn-default"
+                    onclick="{location.href='http://www.youtube.com'}">
+                Youtube
+            </button>
+
+            <button type="button" class="btn btn-lg btn-danger"
+                    onclick="{location.href=''}">
+                NULL
+            </button>
+
+        </div>
+    </div>
+
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 33%"><span
+                class="sr-only">100% Complete (success)</span>
+        </div>
+        <div class="progress-bar progress-bar-warning" style="width: 34%"><span
+                class="sr-only">66% Complete (warning)</span>
+        </div>
+        <div class="progress-bar progress-bar-danger" style="width: 33%"><span
+                class='sr-only'>33% Complete (danger)</span></div>
+    </div>
+
+    <h1>
+        <span class="label label-default ">Default</span>
+        <span class="label label-primary">Primary</span>
+        <span class="label label-success">Success</span>
+    </h1>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0"
+             aria-valuemax="100" style="width: 50%"><span class="sr-only">20% Complete</span></div>
+    </div>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-success" style="width: 35%"><span
+                class="sr-only">35% Complete (success)</span>
+        </div>
+        <div class="progress-bar progress-bar-warning" style="width: 20%"><span
+                class="sr-only">20% Complete (warning)</span>
+        </div>
+        <div class="progress-bar progress-bar-danger" style="width: 10%"><span
+                class='sr-only'>10% Complete (danger)</span></div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-4">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    Panel content
+                </div>
+            </div>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Panel title</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="well">well</div>
+                </div>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+
+    <div class="row">
+        <div class="col-sm-5">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    Cras justo odio
+                </a>
+                <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item">Morbi leo risus</a>
+                <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item">Vestibulum at eros
+                    <div class="well">well</div>
+                </a>
+            </div>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-7">
+            <div class="list-group">
+                <a href="#" class="list-group-item active">
+                    <h4 class="list-group-item-heading">List group item heading</h4>
+                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                        diam eget risus varius blandit.</p>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">List group item heading</h4>
+                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                        diam eget risus varius blandit.</p>
+                    <br>
+                    <div class="well">well</div>
+                </a>
+                <a href="#" class="list-group-item">
+                    <h4 class="list-group-item-heading">List group item heading</h4>
+                    <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed
+                        diam eget risus varius blandit.</p>
+                </a>
+            </div>
+        </div><!-- /.col-sm-4 -->
+    </div>
+
+    <div class="well">well</div>
+
+</div>
+
+<div class="right col-sm-2">
+    <div class="list-group">
+        <a class="list-group-item active">Cras justo odio</a>
+        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+</div>
+
+<div class="footer col-sm-12">
+    <div class="container">
+        <p class="text-muted">Place sticky footer content here.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place sticky footer
+            content here.</p>
+    </div>
+</div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
